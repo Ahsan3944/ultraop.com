@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ogBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="50%" stop-color="#0A0A0A"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="ogAcc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#E63900"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark Canvas -->
+  <rect width="1200" height="630" fill="url(#ogBg)"/>
+  
+  <!-- Subtle Grid Pattern -->
+  <g opacity="0.06" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Glowing Accent Border -->
+  <rect x="24" y="24" width="1152" height="582" fill="none" stroke="#FF3E00" stroke-width="2" stroke-opacity="0.4"/>
+
+  <!-- Left Side: Brand & Hero Typography -->
+  <g transform="translate(100, 160)">
+    <!-- Category Badge -->
+    <rect x="0" y="0" width="220" height="34" fill="#FF3E00" rx="2"/>
+    <text x="110" y="22" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">
+      OFFICIAL GAMING HUB
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="105" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="64" fill="#FFFFFF" letter-spacing="-1px">
+      ULTRA<tspan fill="#FF3E00">OP</tspan>
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="155" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="24" fill="#CCCCCC">
+      Minecraft • Valorant • GTA V • Roblox • Esports
+    </text>
+
+    <text x="0" y="200" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="500" font-size="18" fill="#888888">
+      Official Portal of Sk Ahsan Ahmad | 650K+ Community | Daily Live Broadcasts
+    </text>
+  </g>
+
+  <!-- Right Side: Big Crest Emblem -->
+  <g transform="translate(780, 140) scale(0.7)">
+    <polygon points="250,45 440,155 440,375 250,465 60,375 60,155" fill="#121212" stroke="url(#ogAcc)" stroke-width="10"/>
+    <path d="M 160 160 L 250 110 L 340 160 L 310 210 L 250 175 L 190 210 Z" fill="#FFFFFF"/>
+    <path d="M 140 230 L 190 230 L 210 320 L 250 345 L 290 320 L 310 230 L 360 230 L 330 360 L 250 405 L 170 360 Z" fill="url(#ogAcc)"/>
+    <polygon points="250,195 275,270 245,270 260,325 225,260 245,260" fill="#FFFFFF"/>
+  </g>
+</svg>

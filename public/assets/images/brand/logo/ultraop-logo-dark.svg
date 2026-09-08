@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="100%" height="100%" fill="none">
+  <!-- UltraOP Horizontal Logo for Dark Theme -->
+  <!-- Mark Emblem (Left) -->
+  <g transform="translate(4, 4) scale(0.112)">
+    <polygon points="250,45 440,155 440,375 250,465 60,375 60,155" fill="#0A0A0A" stroke="#FF3E00" stroke-width="14"/>
+    <path d="M 160 160 L 250 110 L 340 160 L 310 210 L 250 175 L 190 210 Z" fill="#FFFFFF"/>
+    <path d="M 140 230 L 190 230 L 210 320 L 250 345 L 290 320 L 310 230 L 360 230 L 330 360 L 250 405 L 170 360 Z" fill="#FF3E00"/>
+    <polygon points="250,195 275,270 245,270 260,325 225,260 245,260" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Typography (Right) -->
+  <text x="72" y="42" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="30" fill="#F4F4F1" letter-spacing="-0.5px">
+    ULTRA<tspan fill="#FF3E00">OP</tspan>
+  </text>
+  <text x="73" y="55" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="800" font-size="9" fill="#999999" letter-spacing="3.5px">
+    GAMING PORTAL
+  </text>
+</svg>

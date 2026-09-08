@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="opGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#E63900"/>
+    </linearGradient>
+    <linearGradient id="darkBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181818"/>
+      <stop offset="100%" stop-color="#0A0A0A"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#FF3E00" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background Shield / Hex -->
+  <rect width="500" height="500" rx="60" fill="url(#darkBg)"/>
+  <rect x="15" y="15" width="470" height="470" rx="45" fill="none" stroke="#262626" stroke-width="4"/>
+  <polygon points="250,45 440,155 440,375 250,465 60,375 60,155" fill="#121212" stroke="url(#opGrad)" stroke-width="6" filter="url(#glow)"/>
+
+  <!-- Stylized Angular Crown / Crest -->
+  <path d="M 160 160 L 250 110 L 340 160 L 310 210 L 250 175 L 190 210 Z" fill="#FFFFFF"/>
+
+  <!-- Stylized Geometric "OP" Monogram -->
+  <path d="M 140 230 L 190 230 L 210 320 L 250 345 L 290 320 L 310 230 L 360 230 L 330 360 L 250 405 L 170 360 Z" fill="url(#opGrad)"/>
+
+  <!-- Center Thunderbolt / Flame Symbol -->
+  <polygon points="250,195 275,270 245,270 260,325 225,260 245,260" fill="#FFFFFF"/>
+
+  <!-- Brand Typography -->
+  <text x="250" y="445" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">
+    ULTRA<tspan fill="#FF3E00">OP</tspan>
+  </text>
+</svg>

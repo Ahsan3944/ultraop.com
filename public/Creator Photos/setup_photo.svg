@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="studioWall" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141414"/>
+      <stop offset="100%" stop-color="#070707"/>
+    </linearGradient>
+    <linearGradient id="screenGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E00"/>
+      <stop offset="100%" stop-color="#7B00FF"/>
+    </linearGradient>
+    <linearGradient id="screenGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFA3"/>
+      <stop offset="100%" stop-color="#0088FF"/>
+    </linearGradient>
+    <filter id="screenGlow">
+      <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#FF3E00" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#studioWall)"/>
+
+  <!-- Acoustic Foam Wall Panels -->
+  <g fill="#1A1A1A" stroke="#0E0E0E" stroke-width="3">
+    <polygon points="100,50 160,80 160,150 100,120"/>
+    <polygon points="160,80 220,50 220,120 160,150"/>
+    <polygon points="220,50 280,80 280,150 220,120"/>
+    <polygon points="900,50 960,80 960,150 900,120"/>
+    <polygon points="960,80 1020,50 1020,120 960,150"/>
+    <polygon points="1020,50 1080,80 1080,150 1020,120"/>
+  </g>
+
+  <!-- Ambient RGB LED Light Bar -->
+  <rect x="250" y="40" width="700" height="8" rx="4" fill="#FF3E00" filter="url(#screenGlow)"/>
+
+  <!-- Gaming Desk Surface -->
+  <polygon points="150,460 1050,460 1150,675 50,675" fill="#121212" stroke="#262626" stroke-width="4"/>
+
+  <!-- Primary Esports Monitor (Center) -->
+  <rect x="360" y="140" width="480" height="270" rx="8" fill="#0A0A0A" stroke="#333333" stroke-width="6"/>
+  <rect x="375" y="155" width="450" height="240" fill="url(#screenGrad1)"/>
+  <!-- Monitor Stand -->
+  <rect x="575" y="410" width="50" height="60" fill="#222222"/>
+  <polygon points="520,470 680,470 660,480 540,480" fill="#333333"/>
+  <text x="600" y="275" font-family="system-ui, sans-serif" font-weight="900" font-size="32" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">
+    ULTRA<tspan fill="#FFFFFF">OP</tspan> LIVE
+  </text>
+  <text x="600" y="310" font-family="system-ui, sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle" opacity="0.9">
+    240Hz 1ms Primary Display
+  </text>
+
+  <!-- Secondary Chat / Broadcast Monitor (Left, Curved Angle) -->
+  <polygon points="170,165 340,185 340,395 170,415" fill="#0A0A0A" stroke="#333333" stroke-width="5"/>
+  <polygon points="180,175 330,195 330,385 180,405" fill="url(#screenGrad2)"/>
+  <text x="255" y="300" font-family="system-ui, sans-serif" font-weight="800" font-size="16" fill="#111111" text-anchor="middle">
+    LIVE STREAM CHAT
+  </text>
+
+  <!-- Custom PC Tower Rig with ARGB (Right) -->
+  <rect x="870" y="190" width="180" height="280" rx="10" fill="#0F0F0F" stroke="#333333" stroke-width="4"/>
+  <!-- Glass Window with RGB Coolers -->
+  <rect x="885" y="205" width="150" height="240" rx="6" fill="#181818"/>
+  <circle cx="960" cy="270" r="35" fill="none" stroke="#FF3E00" stroke-width="6"/>
+  <circle cx="960" cy="360" r="35" fill="none" stroke="#00FFA3" stroke-width="6"/>
+
+  <!-- Mechanical Keyboard & Mouse -->
+  <polygon points="460,500 740,500 760,570 440,570" fill="#1A1A1A" stroke="#FF3E00" stroke-width="2"/>
+  <ellipse cx="800" cy="535" rx="22" ry="32" fill="#222222" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- Studio Boom Arm Broadcast Mic -->
+  <path d="M 280,480 L 320,360 L 390,320" fill="none" stroke="#666666" stroke-width="8" stroke-linecap="round"/>
+  <rect x="385" y="305" width="45" height="30" rx="10" fill="#FF3E00"/>
+
+  <!-- Notice Banner at bottom -->
+  <rect x="250" y="605" width="700" height="50" rx="8" fill="#000000" fill-opacity="0.9" stroke="#333333" stroke-width="2"/>
+  <text x="600" y="636" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#00FFA3" text-anchor="middle">
+    Drop "setup_photo.jpg" or "setup_photo.png" into /public/Creator Photos/
+  </text>
+</svg>

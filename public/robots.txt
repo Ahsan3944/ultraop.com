@@ -1,0 +1,24 @@
+# UltraOP Production Robots Configuration
+# Domain: https://ultraop.in/
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /about/
+Allow: /projects/
+Allow: /games/
+Allow: /blog/
+Allow: /setup/
+Allow: /contact/
+Allow: /faq/
+Allow: /media-kit/
+Allow: /privacy/
+Allow: /terms/
+
+# Prevent crawling of build artifacts and private directories
+Disallow: /api/
+Disallow: /dist/
+Disallow: /node_modules/
+
+# XML Sitemap Location
+Sitemap: https://ultraop.in/sitemap.xml

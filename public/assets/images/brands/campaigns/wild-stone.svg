@@ -1,0 +1,10 @@
+<svg viewBox="0 0 175 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Wild Stone logo">
+  <rect x="6" y="10" width="22" height="28" rx="2" fill="#121212" />
+  <path d="M 12 16 L 17 28 L 22 16" stroke="#FF3E00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  <text x="36" y="26" fill="#121212" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="16" letter-spacing="2.5px">
+    WILD STONE
+  </text>
+  <text x="36" y="37" fill="#888888" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="7.5" letter-spacing="3.5px">
+    MALE GROOMING
+  </text>
+</svg>

@@ -1,0 +1,8 @@
+<svg viewBox="0 0 170 48" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="THE FINALS game logo">
+  <path d="M 6 8 L 22 8 L 16 40 L 0 40 Z" fill="#FF3E00"/>
+  <path d="M 18 8 L 24 8 L 18 40 L 12 40 Z" fill="#121212" opacity="0.18"/>
+  <text x="30" y="32" fill="#121212" font-family="'Syne', 'Impact', sans-serif" font-weight="900" font-size="22" letter-spacing="1px">
+    THE FINALS
+  </text>
+  <circle cx="162" cy="18" r="3" fill="#FFC700" />
+</svg>

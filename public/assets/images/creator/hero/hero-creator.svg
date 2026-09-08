@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F1F1F"/>
+      <stop offset="50%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </linearGradient>
+    <linearGradient id="glowWarm" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3E00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="750" fill="url(#bgGrad)"/>
+  <circle cx="300" cy="280" r="220" fill="url(#glowWarm)"/>
+
+  <!-- Creator Silhouette Illustration Representation -->
+  <path d="M 230 240 C 230 150, 370 150, 370 240 C 370 310, 230 310, 230 240" fill="#2E2825"/>
+  <path d="M 220 220 Q 300 130 380 210 Q 350 160 300 150 Q 250 160 220 220" fill="#151210"/>
+  
+  <path d="M 245 230 Q 300 320 355 230 Q 355 190 300 190 Q 245 190 245 230" fill="#E8B595"/>
+  <ellipse cx="275" cy="225" rx="10" ry="6" fill="#1C140E"/>
+  <ellipse cx="325" cy="225" rx="10" ry="6" fill="#1C140E"/>
+  <path d="M 262 212 Q 275 206 288 212" stroke="#151210" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M 312 212 Q 325 206 338 212" stroke="#151210" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Studio Headset -->
+  <path d="M 220 230 C 215 130, 385 130, 380 230" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-linecap="round"/>
+  <rect x="206" y="210" width="26" height="50" rx="8" fill="#FF3E00"/>
+  <rect x="368" y="210" width="26" height="50" rx="8" fill="#FF3E00"/>
+
+  <!-- Torso & Gaming Hoodie -->
+  <path d="M 160 380 L 245 310 L 355 310 L 440 380 L 480 620 L 120 620 Z" fill="#161616" stroke="#2B2B2B" stroke-width="3"/>
+  <path d="M 245 310 L 300 440 L 355 310" fill="#FF3E00"/>
+
+  <text x="300" y="520" font-family="system-ui, sans-serif" font-weight="900" font-size="28" fill="#FFFFFF" text-anchor="middle" letter-spacing="4">
+    ULTRA<tspan fill="#FF3E00">OP</tspan>
+  </text>
+  <text x="300" y="555" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#999999" text-anchor="middle" letter-spacing="2">
+    SK AHSAN AHMAD
+  </text>
+</svg>

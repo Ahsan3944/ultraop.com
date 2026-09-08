@@ -1,0 +1,6 @@
+{
+  "name": "UltraOP - Gaming Hub & Creator Portal",
+  "description": "The official gaming portal for UltraOP (Ahsan) featuring playable web arcade games, channel hub, Minecraft & gaming content, brand collaborations, and community showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

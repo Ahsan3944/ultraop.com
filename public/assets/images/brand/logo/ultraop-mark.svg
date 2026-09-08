@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="100%" height="100%">
+  <defs>
+    <linearGradient id="markGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#E63900"/>
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="48" fill="#121212"/>
+  <polygon points="128,24 225,80 225,192 128,238 31,192 31,80" fill="#1A1A1A" stroke="url(#markGrad)" stroke-width="4"/>
+  <path d="M 82 82 L 128 56 L 174 82 L 158 108 L 128 90 L 98 108 Z" fill="#FFFFFF"/>
+  <path d="M 72 118 L 98 118 L 108 164 L 128 177 L 148 164 L 158 118 L 184 118 L 169 184 L 128 207 L 87 184 Z" fill="url(#markGrad)"/>
+  <polygon points="128,100 141,139 125,139 133,167 115,134 125,134" fill="#FFFFFF"/>
+</svg>
