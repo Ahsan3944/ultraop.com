@@ -4,21 +4,15 @@
 User-agent: *
 Allow: /
 Allow: /assets/
+Allow: /channels/
 Allow: /about/
-Allow: /projects/
-Allow: /games/
-Allow: /blog/
-Allow: /setup/
-Allow: /contact/
 Allow: /faq/
-Allow: /media-kit/
 Allow: /privacy/
 Allow: /terms/
 
-# Prevent crawling of build artifacts and private directories
+# Prevent crawling of API endpoints and build artifacts
 Disallow: /api/
 Disallow: /dist/
 Disallow: /node_modules/
 
-# XML Sitemap Location
 Sitemap: https://ultraop.in/sitemap.xml
